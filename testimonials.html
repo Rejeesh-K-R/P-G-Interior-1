@@ -40,10 +40,10 @@
 <body>
 <!-- Header  -->
 <div class="sub-banner">
-    <figure class="banner-background mb-0">
+    <!-- <figure class="banner-background mb-0">
         <img src="./assets/images/banner-background.jpg" alt="" class="img-fluid">
-    </figure>
-    <header class="header">
+    </figure> -->
+    <header class="header" style="background-color: #fff !important;">
         <div class="main-header">
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg navbar-light">
@@ -57,10 +57,10 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="./index.html">Home</a>
+                                <a class="nav-link" href="./index.html" style="color: blue !important;">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./about.html">About Us</a>
+                                <a class="nav-link" href="./about.html" style="color: blue !important;">About Us</a>
                             </li>
                             <!-- <li class="nav-item">
                                 <a class="nav-link" href="./service.html">Services</a>
@@ -69,7 +69,7 @@
                                 <a class="nav-link" href="./project.html">Projects</a>
                             </li> -->
                             <li class="nav-item">
-                                <a class="nav-link" href="./gallery.html">Gallery</a>
+                                <a class="nav-link" href="./gallery.html" style="color: blue !important;">Gallery</a>
                             </li>
                             <li class="nav-item active">
                                 <a class="nav-link" href="./testimonials.html">Testimonials</a>
@@ -106,7 +106,7 @@
                                 </div>
                             </li> -->
                             <li class="nav-item">
-                                <a class="nav-link" href="./contact.html">Contact Us</a>
+                                <a class="nav-link" href="./contact.html" style="color: blue !important;">Contact Us</a>
                             </li>
                             <!-- <li class="nav-item">
                                 <a class="nav-link get_a_quote" href="./about.html">Get a Quote
@@ -315,6 +315,66 @@
 </section>
 
 
+<!-- Contact -->
+<section class="contact-section">
+    <figure class="contact-backgroundimage mb-0">
+        <img src="https://th.bing.com/th/id/OIP.QRoSdLBurX4Y2VN-tE4f7wAAAA?r=0&pid=ImgDet&w=184&h=327&c=7&dpr=1.3" alt="" class="img-fluid">
+    </figure>
+    <figure class="left-lamp mb-0">
+        <img src="./assets/images/left-lamp.png" alt="" class="img-fluid">
+    </figure>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 order-md-1 order-2">
+                <div class="contact-form">
+                    <form id="contactpage" method="POST" action="./contact-form.php">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group mb-0"> 
+                                    <input type="text" class="form_style name-box" placeholder="Name" name="name">
+                                    <i class="fa-regular fa-user"></i>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group mb-0">
+                                    <input type="email" class="form_style email-box" placeholder="Email" name="emailid">
+                                    <i class="fa-regular fa-envelope"></i>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group mb-0">
+                                    <input type="tel" class="form_style" placeholder="Phone" name="phone">
+                                    <i class="phone-rotate fa-solid fa-phone-volume"></i>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group mb-0"> 
+                                    <textarea class="form_style" placeholder="Message" rows="3" name="msg"></textarea>
+                                    <i class="send fa-solid fa-paper-plane"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <button type="submit" class="submit">Submit
+                                <i class="dot fa-solid fa-circle-small"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>                
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 order-md-2 order-1">
+                <div class="contact_content" data-aos="fade-up">                    
+                    <h2 class="text-white">Get A Quote</h2>
+                    <h3>We Are Here To Help You</h3>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.3329737833114!2d144.96011341590386!3d-37.80566904135444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2s!4v1669200882885!5m2!1sen!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Footer -->
 <section class="footer-section">
     <figure class="left-lamp mb-0">
@@ -352,32 +412,32 @@
             <div class="row">
                 <div class="col-12">
                     <ul class="links mb-0 list-unstyled">
-                        <li><a href="./index.html">Home</a></li>
-                        <li><a href="./about.html">About US</a></li>
-                        <li class="d-sm-inline-block d-none"><a href="./gallery.html">Gallery</a></li>
-                        <li class="d-sm-inline-block d-none"><a href="./testimonials.html">Testimonials</a></li>
+                        <li><a href="./index.html" style="color: blue;">Home</a></li>
+                        <li><a href="./about.html" style="color: blue;">About US</a></li>
+                        <li class="d-sm-inline-block d-none"><a href="./gallery.html" style="color: blue;">Gallery</a></li>
+                        <li class="d-sm-inline-block d-none"><a href="./testimonials.html" style="color: blue;">Testimonials</a></li>
                         <!-- <li class="d-sm-inline-block d-none"><a href="./service.html">Services</a></li>
                         <li class="d-sm-inline-block d-none"><a href="./project.html">Projects</a></li>
                         <li class="d-sm-inline-block d-none"><a href="./blog.html">Blogs</a></li> -->
-                        <li><a href="./contact.html">Contact Us</a></li>
+                        <li><a href="./contact.html" style="color: blue;">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
-        </div>
+        <!-- </div> -->
         <div class="footer-lower">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12 d-md-block d-none">
-                    <div class="social-icons position-relative">
+                    <!-- <div class="social-icons position-relative">
                         <ul class="list-unstyled mb-0 position-absolute">
                             <li><a href="#" class="text-decoration-none"><i class="fa-brands fa-twitter social-networks"></i></a></li>
                             <li><a href="https://www.facebook.com/pginteriors1" class="text-decoration-none"><i class="fa-brands fa-facebook-f social-networks"></i></a></li>
                             <li><a href="#" class="text-decoration-none"><i class="fa-brands fa-instagram social-networks"></i></a></li>
                             <li><a href="#" class="text-decoration-none"><i class="fa-brands fa-linkedin-in social-networks"></i></a></li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <p class="mb-0 text-size-14">©2025 All Rights Reserved, Developed by <span><a href="https://cognetz.com/"></a>Cognetz</span>. </p>
+                    <p class="mb-0 text-size-14" style="color: blue;">©2025 All Rights Reserved, Developed by <span><a href="https://cognetz.com/" style="color: blue;"></a>Cognetz</span>. </p>
                 </div>
             </div>
         </div>

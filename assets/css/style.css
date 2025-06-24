@@ -744,7 +744,7 @@ to {
 }
 .review-section .review-box .icon {
     position: relative;
-    border: 1px solid var(--e-global-color-accent);
+    border: 1px solid #092ee8;
     border-radius: 100px;
     height: 100px;
     width: 100px;
@@ -756,7 +756,7 @@ to {
     left: -10px;
 }
 .review-section .review-box .icon:hover {
-    background: var(--e-global-color-accent);
+    background: #0923e6;
     transform: translateY(-5px);
 }
 .review-section .review-box .icon img{
@@ -1201,13 +1201,13 @@ to {
     background: var(--e-global-color-white);
 }
 .testimonial-section .owl-carousel .owl-dots .owl-dot:hover span {
-    background: var(--e-global-color-accent);
+    background: #0c27f5;
     width: 22px;
     height: 22px;
     border: 5px solid var(--e-global-color-light-grayish-orange);
 }
 .testimonial-section .owl-carousel .owl-dots .owl-dot.active span {
-    background: var(--e-global-color-accent);
+    background: #0c27f5;
     width: 22px;
     height: 22px;
     border: 5px solid var(--e-global-color-light-grayish-orange);
@@ -1510,7 +1510,8 @@ to {
 .footer-section::before {
     content: "";
     position: absolute;
-    background: url(../images/footer-backgroundimage.jpg);
+    background-color: #fff;
+    /* background: url(../images/footer-backgroundimage.jpg); */
     width: 100%;
     height: 625px;
     top: 0;
@@ -1569,9 +1570,9 @@ to {
     top: 6px;
     width: 216px;
     height: 70px;
-    background: var(--e-global-color-accent);
+    background: #070bf4;
     color: var(--e-global-color-white);
-    border: 2px solid var(--e-global-color-accent);
+    border: 2px solid #070bf4;
     border-radius: 50px;
     outline: none;
     box-shadow: none;
@@ -1579,7 +1580,7 @@ to {
 }
 .footer-section .subscribe_now:hover {
     background: var(--e-global-color-white);
-    color: var(--e-global-color-accent);
+    color: #f50909;
     border-radius: 50px;
     outline: none;
     box-shadow: none;
@@ -1597,7 +1598,7 @@ to {
     transition: all 0.3s ease-in-out;
 }
 .footer-section .subscribe_now:hover .dot {
-    background: var(--e-global-color-accent);
+    background: #f20505;
 }
 .footer-section .middle-portion .links {
     margin-left: 82px;
@@ -1627,7 +1628,7 @@ to {
     color: var(--e-global-color-accent);
 }
 .footer-section .footer-lower {
-    border-top: 2px solid var(--e-global-color-very-dark-gray);
+    border-top: 2px solid #fff;
     padding: 30px 0;
     position: relative;
     z-index: 1;
@@ -1727,7 +1728,7 @@ to {
 .sub-banner_section .banner_content{
     position: relative;
     background: var(--e-global-color-very-dark-gray-mostly-black);
-    border: 10px solid var(--e-global-color-dark-moderate-orange);
+    border: 10px solid #f20808;
     padding: 60px 40px 56px 55px;
     width: 86%;
 }
