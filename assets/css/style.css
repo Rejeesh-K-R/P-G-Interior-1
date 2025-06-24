@@ -413,7 +413,7 @@ p {
 }
 .banner-section .carousel-indicators .active {
     opacity: 1;
-    color: var(--e-global-color-accent);
+    color: #ff0000;
 }
 .banner-section .banner-section-outer {
     overflow: hidden;
@@ -714,12 +714,12 @@ to {
     border-radius: 100px;
     border: 2px solid var(--e-global-color-very-dark-gray);
     float: right;
-    border-right: 2px solid var(--e-global-color-accent);
+    border-right: 2px solid #ff0000;
     transform: rotate(315deg);
     transition: all 0.3s ease-in-out;
 }
 .service-section .service-box .lower-portion .arrow:hover{    
-    border: 2px solid var(--e-global-color-accent);
+    border: 2px solid #ff0000;
     border-right: 2px solid var(--e-global-color-very-dark-gray);
 }
 .service-section .service-box .lower-portion .arrow i{
@@ -1197,7 +1197,7 @@ to {
     height: 22px;
     margin: 0 28px;
     transition: all 0.3s ease-in-out;
-    border: 2px solid var(--e-global-color-accent);
+    border: 2px solid #0008ff;
     background: var(--e-global-color-white);
 }
 .testimonial-section .owl-carousel .owl-dots .owl-dot:hover span {
